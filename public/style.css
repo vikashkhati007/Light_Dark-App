@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button{
+  font-size: 1.3rem;
+  font-family: 'Sulphur Point', sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.8);
+  color: aliceblue;
+  border: 2px solid white;
+  animation: scale 0.2s ease;
+}
+
+.light-btn{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+
+}
+
+.dark-btn{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+
+
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+@keyframes scale {
+  0%{
+    width: 0px;
+    height: 0px;
+  }
+  100%{
+    width: 150px;
+    height: 50px;
+  }
+}
+
+.body-dark{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: aliceblue;
+}
+
+.body-light{
+  background-color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1{
+  font-size: 5rem;
+  position: relative;
+  top: 20vh;
+}
+
+p{
+  font-size: 2rem;
+  position: relative;
+  top: 20vh;
+}
+
